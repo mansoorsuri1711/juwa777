@@ -1,0 +1,23 @@
+{
+  "name": "Juwa 777",
+  "short_name": "Juwa 777",
+  "description": "Download Juwa 777 APK – slots, fish games, daily bonuses for Android.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#140606",
+  "theme_color": "#140606",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/juwa-777-game-logo.webp",
+      "sizes": "1024x1024",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

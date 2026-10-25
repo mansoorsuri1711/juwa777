@@ -1,0 +1,42 @@
+/** Canonical site config for Juwa 777 on juwa777.love */
+export const SITE = {
+  name: "Juwa 777",
+  domain: "juwa777.love",
+  url: "https://juwa777.love",
+  email: "support@juwa777.love",
+  locale: "en_US",
+  areaServed: "United States",
+  areaCode: "US",
+  version: "V1.0.66",
+  fileSize: "70MB",
+  androidMin: "Android 5.0+",
+  ratingValue: "4.6",
+  ratingCount: "1600",
+  downloadsLabel: "500K+",
+  lastUpdated: "2026-10-25",
+  logo: "/juwa-777-game-logo.webp",
+  ogImage: "/feature/og-image-1200x630.png",
+  ogSquare: "/feature/og-square-1200x1200.png",
+  twitterImage: "/feature/twitter-card-1200x600.png",
+  description:
+    "Juwa 777 is a US social gaming app with slots, fish shooters, daily bonuses, cashback, and Lucky Wheel rewards. Download the latest APK for Android.",
+} as const;
+
+export const ROUTES = {
+  home: "/",
+  download: "/download-juwa-777",
+  deposit: "/deposit-money-in-juwa-777",
+  withdraw: "/withdraw-money-from-juwa-777",
+  pc: "/juwa-777-for-pc",
+  juwa2: "/juwa-2-0",
+  admin: "/juwa-admin",
+  about: "/about-us",
+  blog: "/blog",
+  contact: "/contact-us",
+  privacy: "/privacy",
+  disclaimer: "/disclaimer",
+  blogLogin: "/blog/juwa-777-login-guide",
+  blogSafe: "/blog/is-juwa-777-safe",
+  blogIos: "/blog/juwa-777-ios-download",
+  blogBonuses: "/blog/juwa-777-bonuses-and-events",
+} as const;
