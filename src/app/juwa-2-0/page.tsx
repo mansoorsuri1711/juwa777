@@ -61,15 +61,15 @@ export default function Juwa2Page() {
           visuals, and snappier session starts for returning accounts.
         </p>
 
-        <figure className="mb-8">
+        <figure className="mb-8 flex justify-center">
           <Image
             src="/juwa-2.0.webp"
             alt="Juwa 2.0 casino app update artwork"
-            width={900}
-            height={500}
-            className="rounded-xl w-full h-auto border border-red-900/30"
+            width={160}
+            height={160}
+            className="rounded-xl object-contain w-28 h-28 md:w-40 md:h-40 drop-shadow-xl"
             priority
-            sizes="(max-width: 768px) 100vw, 900px"
+            sizes="160px"
           />
         </figure>
 
