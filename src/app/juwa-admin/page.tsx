@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 import DownloadButton from "@/components/DownloadButton";
@@ -45,6 +46,18 @@ export default function AdminPage() {
           player accounts and loads credits for Juwa 777. Players do not need that dashboard for
           everyday spins — but understanding it helps you judge whether an agent is legitimate.
         </p>
+
+        <figure className="mb-10">
+          <Image
+            src="/juwa-777-login.webp"
+            alt="Juwa 777 admin and player login screen used by agents and stores"
+            width={900}
+            height={500}
+            className="rounded-xl w-full h-auto border border-red-900/30"
+            priority
+            sizes="(max-width: 768px) 100vw, 900px"
+          />
+        </figure>
 
         <h2 className="text-2xl font-bold text-accent mb-4">What the Admin Side Does</h2>
         <ul className="space-y-3 text-gray-300 mb-8 list-disc list-inside">
