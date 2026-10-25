@@ -247,12 +247,6 @@ export default function Home() {
               quick spins, arcade fish hunts, cashback tiers, and Lucky Wheel rewards without
               traveling to a physical casino floor.
             </p>
-            <p className="text-gray-300 leading-relaxed">
-              This guide on juwa777.love covers what the app offers, how to install the latest APK,
-              how credits move through agents, and which bonuses actually matter. Dedicated pages
-              handle deep install, deposit, withdraw, PC, and Juwa 2.0 steps so every search intent
-              has a clean home.
-            </p>
 
             <div className="flex items-center gap-3 justify-center md:justify-start text-sm text-gray-300">
               <span
@@ -298,6 +292,12 @@ export default function Home() {
             <p className="text-gray-400 text-sm text-center md:text-left italic">
               *Android APK sideload · iOS &amp; PC guides available
             </p>
+            <blockquote className="mt-4 bg-[#1A0A0A] border border-red-900/40 border-l-4 border-l-accent rounded-xl px-5 py-4 text-gray-300 leading-relaxed italic">
+              &ldquo;This guide on juwa777.love covers what the app offers, how to install the latest
+              APK, how credits move through agents, and which bonuses actually matter. Dedicated
+              pages handle deep install, deposit, withdraw, PC, and Juwa 2.0 steps so every search
+              intent has a clean home.&rdquo;
+            </blockquote>
           </div>
 
           <div className="w-full md:w-1/2 mt-8">
